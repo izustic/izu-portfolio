@@ -7,29 +7,28 @@
     <title>izuportfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" >
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-<link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
-<link rel="stylesheet"
-href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
 </head>
 <body>
     <!---navbar Section start-->
         <nav>
-                <h2 class="logo">Port<span>folio</span></h2>
+                <h2 class="logo">izu<span>Stic</span></h2>
                 <ul class="navbar">
                     <li>
                         <a href="index.html">Home</a>
                     </li>
                     <li>
-                        <a href="#">About</a>
+                        <a href="#about">About</a>
                     </li>
                     <li>
-                        <a href="#">Service</a>
+                        <a href="#services">Services</a>
                     </li>
                     <li>
-                        <a href="#">Skills</a>
+                        <a href="#projects">Projects</a>
                     </li>
                 </ul>
                 <div class="maine">
@@ -39,39 +38,43 @@ href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
         </nav>
     <!----hero div start-->
     <div class="hero">
-        <section class="content">
+<!--         <section class="content">
             <h4>Hi, my name is</h4>
             <h1>Izu<span> Obi</span></h1>
-            <h3>I'm a Web Developer.</h3>
-            <div class="newsletter">
-                <form>
-                    <input type="email" name="email" id="mail" placeholder="Kindly enter your email">
-                    <input type="submit" name="submit" value="Let's start">
-                </form>
-            </div>
-        </section>
+            <h3>I'm a Web Developer. I'm super chill and a great guy to work with.</h3>
+            <button class="button">
+                <a href="https://drive.google.com/file/d/1DT6MEcPsrvLF00rDGPVPvQx64jB84Ydk/view?usp=sharing" download style="color: white; text-decoration: none;">Download my CV</a>
+            </button> 
+        </section> -->
+       
     </div>
+    <section class="content">
+        <h3 id="text"><!-- Hi, my name is Izu Obi. I'm a Web Developer. I'm super chill and a great guy to work with. -->Starting...</h3>
+        <button class="button">
+            <a href="data/Frontend Resume.pdf" download style="color: white; text-decoration: none;">Download my CV</a>
+        </button> 
+    </section>
+    
 
     <!--About Section start-->
 
-    <section class="about">
+    <section class="about" id="about">
         <div class="main">
             <div class="about-img">
-                <img src="images/profileimage2.jpeg" alt="">
+                <img src="images/heroe.jpg" alt="">
             </div>
             <div class="about-text">
                 <h2>About Me</h2>
-                <h5>Developer <span>& Designer</span></h5>
-                <p>I am a front-end web developer. I can provide unique and intuitive websites, with an attention to interactive layouts for optimized user experience. I also ensure that my websites are responsive, regardless of the device.</p>
+                <p>I'm the web developer who makes finger-licking, good-looking websites. From unique designs to intuitive websites, I've got it all covered. Plus if you're looking for mobile responsive websites, you know who to call (not ghostbusters).</p>
                 <button type="button"><a href="tel:+2349034042761" style="color: white; text-decoration: none;">Let's Talk</a></button>
             </div>
         </div>
     </section>
 
     <!--Service Section start-->
-    <div class="service">
+    <div class="service" id="services">
         <div class="title">
-            <h2>Our Service</h2>
+            <h2>My Services</h2>
         </div>
         <div class="box">
             <div class="card">
@@ -86,9 +89,9 @@ href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
             </div>
             <div class="card">
                 <i class="fa-regular fa-user"></i>
-                <h5>Web Development</h5>
+                <h5>Web Hosting</h5>
                 <div class="pra">
-                    <p>Every website should be built with two primary goals: Firstly, it needs to work across all devices. Secondly, it needs to have a fast loading time.</p>
+                    <p>I'll give you dedicated server space to host your website, ensuring global access, fast loading time and an optimal user experience.</p>
                     <p style="text-align: center;">
                         <a class="button" href="#">Read More</a>
                     </p>
@@ -96,11 +99,45 @@ href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
             </div>
             <div class="card">
                 <i class="fa-regular fa-bell"></i>
-                <h5>Web Development</h5>
+                <h5>Web Optimization</h5>
                 <div class="pra">
-                    <p>Every website should be built with two primary goals: Firstly, it needs to work across all devices. Secondly, it needs to have a fast loading time.</p>
+                    <p>A website is of little use if it's not visible to search engines. Allow me to optimize it for SEO, speed, backlinks, and more to improve its ranking.</p>
                     <p style="text-align: center;">
                         <a class="button" href="#">Read More</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--Project Section start-->
+    <div class="service" id="projects" style="background-color: #191919;">
+        <div class="title">
+            <h2>My Projects</h2>
+        </div>
+        <div class="box">
+            <div class="card" style='background-color: #101010;'>
+                <div class="pra">
+                   <img src="images/eshoppe preview.PNG" style="height: 300px; width: 250px;" alt="" srcset="">
+                    <p style="text-align: center;"><br>
+                        <a class="button" href="http://izueshoppe.netlify.app/">preview</a>
+                    </p>
+                </div>
+            </div>
+            <div class="card" style='background-color: #101010;'>
+                <div class="pra">
+                   <img src="images/izuweatherapp.PNG" style="height: 300px; width: 250px;" alt="" srcset="">
+                    <p style="text-align: center;"><br>
+                        <a class="button" href="https://izuweatherapp.netlify.app/">preview</a>
+                    </p>
+                </div>
+            </div>
+            <div class="card" style='background-color: #101010;'>
+                <div class="pra">
+                   <img src="images/izuportfolio.PNG" style="height: 300px; width: 250px;" alt="" srcset="">
+                    <p style="text-align: center;"><br>
+                        <a class="button" href="https://izuportfolio.netlify.app/#">preview</a>
                     </p>
                 </div>
             </div>
