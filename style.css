@@ -363,7 +363,7 @@ button:hover{
     padding: 3em;
 }
 .card{
-    height: 405px;
+    height: auto;
     width: 335px;
     padding: 20px 35px;
     background: #191919;
