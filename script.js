@@ -7,9 +7,9 @@ menu.onclick = () => {
     navbar.classList.toggle('open');
 }
 
-const text = "Hi, my name is Izu Obi. I'm a full stack developer who focuses on writing clean, elegant, and efficient code."
+const text = `Hi! My name is Izu Obi. I'm a full stack developer who focuses on writing clean, elegant, and efficient code.`
 let idx = 1
-let speed = 100
+let speed = 70
 
 writeText() 
 
