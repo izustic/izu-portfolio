@@ -30,8 +30,8 @@ body{
     align-items: center;
     justify-content: space-between;
     background: rgba(255, 255, 255, 0);
-    backdrop-filter: blur(1.8px);
-    -webkit-backdrop-filter: blur(1.8px);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
     padding: 28px 12%;
     transition: all .50s ease;
  }
