@@ -481,6 +481,7 @@ h5{
     border: 1px solid #1982ea;
     flex-wrap: wrap;
     gap: 10px;
+    text-align: center;
 }
 @media (max-width: 600px){
     .contact-me{
