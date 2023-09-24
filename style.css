@@ -87,6 +87,20 @@ body{
     border-radius: 1rem;
     transition: transform .4s;
 }
+@media (max-width: 600px){
+    .logo{
+        font-size: 1.5rem;
+    }
+    .maine a{
+        margin-left: 0.5rem;
+        font-size: 0.8rem;
+        margin-right: 0.5rem;
+    }
+    .btn{
+        padding: 0.2rem 0.7rem;
+        border-radius: 0.8rem;
+    }
+}
 .btn:hover {
     transform: scale(1.1)
 }
@@ -383,6 +397,11 @@ button:hover{
         -ms-flex-pack: center;
             justify-content: center;
     padding: 3em;
+}
+@media (max-width: 600px){
+    .box{
+        padding: 2em;
+    }
 }
 .card{
     height: auto;
